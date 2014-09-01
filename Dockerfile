@@ -1,4 +1,4 @@
-FROM dockerfile/java
+FROM ubuntu
 
 RUN apt-get install -y erlang erlang-nox
 
