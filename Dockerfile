@@ -1,6 +1,5 @@
-FROM ubuntu:14.04
+FROM dockerfile/ubuntu
 
-RUN apt-get -y install wget
 
 ADD rabbitmq-signing-key-public.asc /tmp/rabbitmq-signing-key-public.asc
 RUN apt-key add /tmp/rabbitmq-signing-key-public.asc
