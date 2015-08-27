@@ -1,4 +1,4 @@
-FROM google/debian:wheezy
+FROM google/debian:wheezy:latest
 
 ADD rabbitmq-signing-key-public.asc /tmp/rabbitmq-signing-key-public.asc
 
